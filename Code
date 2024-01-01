@@ -57,3 +57,17 @@ local Button = MainTab:CreateButton({
    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Dex Explorer",
+   Callback = function()
+   loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "X Fling Script",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+   end,
+})
